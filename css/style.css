@@ -1,0 +1,97 @@
+html , body {
+    padding: 0;
+    margin: 0;
+    font-family: IRANSans2 !important;
+}
+
+.bg-img {
+    background-image: url('../media/bg_lg.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.on-img {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.35);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    --webkit-backdrop-filter: blur(5px);
+}
+video {
+    max-width: 100%;
+}
+#my-video {
+    max-width: 100%;
+    background-size: cover;
+    overflow: auto;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: 0.5s all;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.div-centerd {
+    max-width: 100%;
+    background-size: cover;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: 0.5s all;
+    border-radius: 10px;
+}
+@font-face {
+    font-family: IRANSans2;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/dana-fanum-regular.eot');
+    src: url('../fonts/dana-fanum-regular.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/dana-fanum-regular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/dana-fanum-regular.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/Dana-FaNum-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans2;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/dana-fanum-bold.eot');
+    src: url('../fonts/dana-fanum-bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/dana-fanum-bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/dana-fanum-bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/Dana-FaNum-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-weight: normal;
+    font-style: normal; 
+    src : url("../fonts/38d4b5f.woff2") format('woff2');
+}
+.directly {
+    background-color: #332f61;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color : #fff !important;
+    box-shadow: 0 4px 14px 0 rgba(51,47,97,1);
+    position: relative;
+    top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
